@@ -1,9 +1,13 @@
 Package: linpk
 Type: Package
-Version: 1.0
-Date: 2018-06-07
+Version: 1.1.1
+Date: 2021-04-23
 Title: Generate Concentration-Time Profiles from Linear PK Systems
 Authors@R: person("Benjamin", "Rich", role=c("aut", "cre"), email="mail@benjaminrich.net")
+Author: Benjamin Rich [aut, cre]
+Maintainer: Benjamin Rich <mail@benjaminrich.net>
+URL: https://github.com/benjaminrich/linpk
+BugReports: https://github.com/benjaminrich/linpk/issues
 Description: Generate concentration-time profiles from linear pharmacokinetic
   (PK) systems, possibly with first-order absorption or zero-order infusion,
   possibly with one or more peripheral compartments, and possibly under
@@ -12,12 +16,11 @@ Description: Generate concentration-time profiles from linear pharmacokinetic
   computed.
 License: GPL-3
 Imports: graphics,utils,mvtnorm
-Suggests: knitr,shiny
+Suggests: knitr,rmarkdown,shiny
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
+Encoding: UTF-8
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2018-06-07 16:30:43 UTC; brich
-Author: Benjamin Rich [aut, cre]
-Maintainer: Benjamin Rich <mail@benjaminrich.net>
+Packaged: 2021-04-27 13:25:01 UTC; Ben
 Repository: CRAN
-Date/Publication: 2018-06-12 10:33:53 UTC
+Date/Publication: 2021-04-27 13:50:03 UTC

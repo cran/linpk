@@ -1,6 +1,8 @@
 # linpk
 
 [![Travis-CI Build Status](https://travis-ci.org/benjaminrich/linpk.svg?branch=master)](https://travis-ci.org/benjaminrich/linpk)
+[![CRAN\_Release\_Badge](http://www.r-pkg.org/badges/version-ago/linpk)](https://CRAN.R-project.org/package=linpk)
+[![CRAN\_Download\_Badge](http://cranlogs.r-pkg.org/badges/linpk)](https://CRAN.R-project.org/package=linpk)
 
 An R package for generating concentration-time profiles from linear pharmacokinetic (PK) systems.
 
@@ -25,7 +27,12 @@ For an introduction to the package, with usage examples, see the [vignette](http
 There is a shiny app that provides a demo of the package capabilities, and also generates code that can be placed in an R script. To run it, paste the following lines in an R console:
 
 ``` r
+# Make sure the required packages are installed
 require(shiny)
-shiny::runGitHub("linpk", "benjaminrich", subdir="inst/demo")
+require(shinyjs)
+require(shinyAce)
+require(dygraphs)
+require(linpk)  # See above for installation
+shiny::runGitHub("linpk", "benjaminrich", subdir="inst/demo-app")
 ```
 
