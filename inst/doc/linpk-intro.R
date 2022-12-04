@@ -113,5 +113,5 @@ for (day in 2:8) {
 plot(y, main="Clearance increasing by 20% each day")
 
 ## ----eval=F-----------------------------------------------------------------------------------------------------------
-#  linpkApp()
+#  linpk::linpkApp()
 
